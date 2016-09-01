@@ -1,8 +1,6 @@
 # Constellation
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/constellation`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+A Ruby Gem to get constellation from birthday, which supports Chinese and English currently.
 
 ## Installation
 
@@ -22,7 +20,25 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+You can pass a birthday with type of Date or String, and you will get the corresponding constellation.
+
+The constellation returned by default is Chinese, and you can get  an English result by passing the second parameter with "en" or :en.
+
+```ruby
+require 'constellation'
+
+Constellation.constellation "20001010"
+# => "天秤座"
+
+Constellation.constellation "20001010", :cn
+# => "天秤座"
+
+Constellation.constellation "20001010", :en
+# => "Libra"
+
+Constellation.constellation "20001010", 'en'
+# => "Libra"
+```
 
 ## Development
 
