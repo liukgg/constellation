@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{A Ruby Gem to get constellation from birthday.}
   spec.description   = %q{A Ruby Gem to get constellation from birthday.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/liukgg/constellation"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
