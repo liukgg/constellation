@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'constellation/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "constellation"
+  spec.name          = "constellation_ruby"
   spec.version       = Constellation::VERSION
   spec.authors       = ["liukgg"]
   spec.email         = ["liuk1991@sina.com"]
