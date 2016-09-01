@@ -1,3 +1,4 @@
+require 'date'
 require "constellation/version"
 
 module Constellation
